@@ -40,15 +40,39 @@ The Acoustic Leak Detection System is an advanced embedded solution designed to 
                          │  Gateway      │
                          └───────┬───────┘
                                  │
-                         ┌───────┴───────┐
-                         │  Cloud        │
-                         │  Platform     │
-                         │               │
-                         │ • Data Analytics
-                         │ • Leak Correlation
-                         │ • Alert Management
-                         │ • Utility Dashboard
-                         └───────────────┘
+                         ┌───────────────────────────────┐
+                         │         Cloud Platform        │
+                         │                               │
+                         │ • Data Analytics              │
+                         │ • Leak Correlation            │
+                         │ • Alert Management            │
+                         │ • Utility Dashboard           │
+                         └───────────────────────────────┘
+```
+
+### Sensor Node Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    ARM Cortex-M4F MCU                      │
+│                                                             │
+│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────┐ │
+│  │   Signal        │  │   Machine       │  │   Network   │ │
+│  │   Processing    │  │   Learning      │  │   Stack     │ │
+│  │                 │  │                 │  │             │ │
+│  │ • FFT Analysis  │  │ • Feature Extract│  │ • LoRaWAN   │ │
+│  │ • Filtering     │  │ • Classification│  │ • Protocols │ │
+│  │ • Correlation   │  │ • Inference     │  │ • Security  │ │
+│  └─────────────────┘  └─────────────────┘  └─────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+│                                                             │
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│   Sensors       │  │   Power         │  │   Communication │
+│                 │  │   Management    │  │                 │
+│ • Accelerometer │  │ • Solar Panel   │  │ • LoRaWAN Radio │
+│ • Hydrophone    │  │ • LiPo Battery  │  │ • Antenna       │
+│ • 24-bit ADC    │  │ • Charge Ctrl   │  │ • Security Chip │
+└─────────────────┘  └─────────────────┘  └─────────────────┘
 ```
 
 ---
