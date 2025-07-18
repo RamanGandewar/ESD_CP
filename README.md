@@ -48,9 +48,6 @@ The Acoustic Leak Detection System is an advanced embedded solution designed to 
         │ • Dashboard                                 │
         └─────────────────────────────────────────────┘
 ```
-*Alternatively, refer to the detailed system architecture flowchart below:*
-
-![image2](image2)
 
 ---
 
