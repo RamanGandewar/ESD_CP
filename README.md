@@ -40,13 +40,15 @@ The Acoustic Leak Detection System is an advanced embedded solution designed to 
                          │  Gateway      │
                          └───────┬───────┘
                                  │
-        ┌─────────────────────────────────────────────┐
-        │              Cloud Platform                 │
-        │ • Data Analytics                            │
-        │ • Leak Correlation                          │
-        │ • Alerts                                    │
-        │ • Dashboard                                 │
-        └─────────────────────────────────────────────┘
+                         ┌───────┴───────┐
+                         │  Cloud        │
+                         │  Platform     │
+                         │               │
+                         │ • Data Analytics
+                         │ • Leak Correlation
+                         │ • Alert Management
+                         │ • Utility Dashboard
+                         └───────────────┘
 ```
 
 ---
