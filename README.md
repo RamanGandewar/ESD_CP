@@ -40,17 +40,17 @@ The Acoustic Leak Detection System is an advanced embedded solution designed to 
                          │  Gateway      │
                          └───────┬───────┘
                                  │
-         ┌───────────────────────────────────────────────┐
-         │                  Cloud Platform               │
-         │ • Data Analytics                             │
-         │ • Leak Correlation                           │
-         │ • Alerts                                     │
-         │ • Dashboard                                  │
-         └───────────────────────────────────────────────┘
+        ┌─────────────────────────────────────────────┐
+        │              Cloud Platform                 │
+        │ • Data Analytics                            │
+        │ • Leak Correlation                          │
+        │ • Alerts                                    │
+        │ • Dashboard                                 │
+        └─────────────────────────────────────────────┘
 ```
 *Alternatively, refer to the detailed system architecture flowchart below:*
 
-![image1](image1)
+![image2](image2)
 
 ---
 
@@ -169,7 +169,7 @@ This project is for academic and internal development use only. For commercial d
 ## Contact
 
 - **Project Lead:** Raman Gandewar
-- **Email:** raman.gandewar23@vit.edu
+- **Email:** ramangandewar@gmail.com
 - **Advisors:** [List academic/industry mentors]
 
 ---
